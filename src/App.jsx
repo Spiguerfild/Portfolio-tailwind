@@ -1,12 +1,18 @@
 import React from "react"
+import { ThemeChanger } from "./components/ThemeChanger"
+import { Avatar } from "./components/Avatar"
 
 function App() {
 
   return (
     <>
-      <div>
-        <h1 className="text-4x1 text-center text-violet-700 bg-pink-400/50 p-2 m-3">Portfolio</h1>
-      </div>
+      <section className="flex justify-center items-center gap-4 flex-col mt-4">
+        <Avatar />
+        <div className="text-2x1">@Spiguerfild</div>
+        <ThemeChanger />
+      </section>
+
+
     </>
 
   )
