@@ -3,8 +3,8 @@ import { Avatar } from "./components/Avatar";
 import { NavbarTop } from "./components/NavbarTop";
 import './App.css'
 import { Theme } from "react-daisyui";
-console.log(Theme)
 function App() {
+
   return (
     <div>
       <NavbarTop />
