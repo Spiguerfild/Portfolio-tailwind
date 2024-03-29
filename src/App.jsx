@@ -25,9 +25,11 @@ function App() {
           </div>
         </motion.div>
         <div className="flex gap-6">
+
           <button className=" px-4   btn btn-active btn-ghost "><LinkedinLogo size={36} /></button>
           <button className=" px-4  btn btn-active btn-ghost"><GithubLogo size={36} /></button>
           <button className=" px-4  btn btn-active btn-primary">Download CV</button>
+
         </div>
 
       </div>
