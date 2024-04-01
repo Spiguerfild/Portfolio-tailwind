@@ -8,6 +8,7 @@ export default {
     extend: {
       fontFamily: {
         inter: ['Inter', 'sans-serif'],
+        'dancing-script': ['Dancing Script', 'cursive'],
       },
 
     },
@@ -26,7 +27,6 @@ export default {
         forest: {
           ...require("daisyui/src/theming/themes")["forest"],
           primary: "#079211",
-          secondary: "teal",
           accent: "#ffffff",
           neutral: "#808080",
           'base-100': "#101017"
