@@ -29,40 +29,40 @@ export const Presentation = () => {
           </div>
         </div>
 
-        <div className="flex mt-12 gap-6 w-7/12 justify-end">
+        <div className="flex mt-12 gap-6 w-6/12 justify-end">
           <motion.div
             whileHover={{ scale: .9 }}
           >
-            <button className=" px-4  btn btn-active btn-ghost">
-              <a href="https://www.instagram.com/luis_s_tt/" target="_blank" rel="noopener noreferrer" >
+            <a href="https://www.instagram.com/luis_s_tt/" target="_blank" rel="noopener noreferrer" >
+              <button className="   btn btn-active btn-ghost">
                 <InstagramLogo size={36} />
-              </a>
-            </button>
+              </button>
+            </a>
           </motion.div>
           <motion.div
             whileHover={{ scale: .9 }}
           >
 
-            <button className=" px-4   btn btn-active btn-ghost ">
-              <a href="https://www.linkedin.com/in/luisscanavacca/" target="_blank" rel="noopener noreferrer" >
+            <a href="https://www.linkedin.com/in/luisscanavacca/" target="_blank" rel="noopener noreferrer" >
+              <button className="   btn btn-active btn-ghost ">
                 <LinkedinLogo size={36} />
-              </a>
-            </button>
+              </button>
+            </a>
           </motion.div>
           <motion.div
             whileHover={{ scale: .9 }}
           >
 
-            <button className=" px-4  btn btn-active btn-ghost">
-              <a href="https://github.com/Spiguerfild" target="_blank" rel="noopener noreferrer" >
+            <a href="https://github.com/Spiguerfild" target="_blank" rel="noopener noreferrer" >
+              <button className="   btn btn-active btn-ghost">
                 <GithubLogo size={36} />
-              </a>
-            </button>
+              </button>
+            </a>
           </motion.div>
           <motion.div
             whileHover={{ scale: 1.2 }}
           >
-            <button className=" px-4 btn btn-active  btn-primary">Download CV</button>
+            <button className="  btn btn-active  btn-primary">Download CV</button>
           </motion.div>
         </div>
       </motion.div >

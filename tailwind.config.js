@@ -21,14 +21,14 @@ export default {
           ...require("daisyui/src/theming/themes")["light"],
           primary: "#4433ff",
           accent: "#000000",
-          neutral: "#808080",
+          neutral: "#efefef",
 
         },
         forest: {
           ...require("daisyui/src/theming/themes")["forest"],
           primary: "#079211",
           accent: "#ffffff",
-          neutral: "#808080",
+          neutral: "#313131",
           'base-100': "#101017"
         },
       },
