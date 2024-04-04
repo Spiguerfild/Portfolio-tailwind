@@ -22,27 +22,27 @@ export const Experiences = () => {
       // style={{ height: '340px' }}
       >
 
-        <div className="card  rounded-none border-b-8 border-primary w-1/3 bg-neutral flex flex-col items-start">
+        <div className="card  rounded-none border-b-8 border-primary w-1/3 bg-base-300  flex flex-col items-start">
           {/* icons */}
           {/* t1 */}
           {/* sub-t2 */}
         </div>
 
-        <div className="card  rounded-none border-b-8 border-primary w-1/3 bg-neutral  flex flex-col items-start">
+        <div className="card  rounded-none border-b-8 border-primary w-1/3  flex flex-col bg-base-300 items-start">
           <div className="card-body">
             <h2 className="card-title">Card title!</h2>
             <p>If a dog chews shoes whose shoes does he choose?</p>
-            <div className="card-actions justify-end">
+            <div className="card-actions justify-start">
               <button className="btn btn-primary">Buy Now</button>
             </div>
           </div>
         </div>
 
-        <div className="card rounded-none border-b-8 border-primary w-1/3 bg-neutral flex flex-col items-start">
+        <div className="card rounded-none border-b-8 border-primary w-1/3  flex flex-col bg-base-300 items-start">
           <div className="card-body">
             <h2 className="card-title">Card title!</h2>
             <p>If a dog chews shoes whose shoes does he choose?</p>
-            <div className="card-actions justify-end">
+            <div className="card-actions justify-start">
               <button className="btn btn-primary">Buy Now</button>
             </div>
           </div>

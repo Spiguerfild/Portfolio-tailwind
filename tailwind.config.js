@@ -21,15 +21,15 @@ export default {
           ...require("daisyui/src/theming/themes")["light"],
           primary: "#4433ff",
           accent: "#000000",
-          neutral: "#efefef",
-
+          neutral: "#808080",
         },
         forest: {
           ...require("daisyui/src/theming/themes")["forest"],
           primary: "#079211",
           accent: "#ffffff",
-          neutral: "#313131",
-          'base-100': "#101017"
+          neutral: "#808080",
+          'base-100': "#101017",
+          'base-300': "#313131"
         },
       },
       "light",
