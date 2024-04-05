@@ -29,7 +29,7 @@ export const Presentation = () => {
           </div>
         </div>
 
-        <div className="flex mt-12 gap-6 w-6/12 justify-between">
+        <div className="flex mt-12 gap-6 w-6/12 justify-end">
           <motion.div
             whileHover={{ scale: .9 }}
           >
